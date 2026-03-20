@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# 本地 SQLite 账本（勿将个人财务数据提交到远程）
+bill-claw/db/*.db
+bill-claw/db/*.db-journal
+bill-claw/db/*.db-wal
+bill-claw/db/*.db-shm
+
+# Node（若子项目使用）
+node_modules/
+
+# 编辑器（按需保留团队共享配置时可删除对应行）
+.idea/
+
+# Playwright / 浏览器缓存
+**/playwright-report/
+**/test-results/
