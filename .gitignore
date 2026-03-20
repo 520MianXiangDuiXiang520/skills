@@ -29,6 +29,9 @@ htmlcov/
 .env.*
 !.env.example
 
+# BillClaw 报表与图表输出（生成物，勿提交）
+bill-claw/billclaw_output/
+
 # 本地 SQLite 账本（勿将个人财务数据提交到远程）
 bill-claw/db/*.db
 bill-claw/db/*.db-journal
